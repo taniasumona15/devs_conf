@@ -4,6 +4,31 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     
 }
+.all-heading{
+   text-align: center;
+   font-size: 45px;
+   font-weight: 800;
+   margin-bottom: 30px;
+    
+}
+.primary-btn{
+    padding: 20px 40px;
+    background-color: rgb(33, 33, 241);
+    color: #fff;
+    border: none;
+    font-weight: 800;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.primary-btn:hover{
+    background-color: #f5f5f5;
+    color: #000;
+    border: #000 solid 1px;
+}
+
 
 .navbar{
     display:flex;
@@ -38,23 +63,6 @@ cursor: pointer;
     color: #000;
 }
 
-.primary-btn{
-    padding: 20px 40px;
-    background-color: rgb(33, 33, 241);
-    color: #fff;
-    border: none;
-    font-weight: 800;
-    font-size: 22px;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
-
-.primary-btn:hover{
-    background-color: #f5f5f5;
-    color: #000;
-    border: #000 solid 1px;
-}
 
 
 .banner{
@@ -120,15 +128,9 @@ cursor: pointer;
     
 }
 
-.speakers-section h1{
-   text-align: center;
-   font-size: 40px;
-   font-weight: 800;
-   margin-bottom: 50px;
-    
-}
 
 .speaker-container{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -168,4 +170,118 @@ line-height: 40px;
     font-size: 16px;
     font-weight: 400;
     color: #726f6f;
+}
+
+.secure-spot-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.secure-spot-section h6{
+    font-size: 18px;
+    font-weight: 500;
+    color:#726f6f;
+}
+
+.spots-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 100px;
+
+
+}
+
+.spot{
+    border: 2px solid #f5f5f5;
+    width:100%;
+    padding:40px;
+  border-radius: 20px;
+    line-height: 45px;
+}
+
+.spot h3{
+    font-size: 40px;
+    font-weight: 800;
+    color: #000;
+}
+
+
+.spot hr{
+    border: 1px solid #f5f5f5;
+    margin: 15px 0;
+}
+.spot ul{
+    margin-left: 20px;
+}
+
+.spot ul li{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.spot ul li::marker{
+
+
+color: royalblue;    
+    
+}
+
+
+.spot button{
+    width: 100%;
+    margin: 30px 0 20px;
+    font-weight: 700;
+}
+
+
+.standard-btn{
+    background-color: transparent;
+    border: 2px solid rgb(87, 87, 240);
+    color: royalblue;
+    
+   
+}
+
+.pro-btn{
+    background-color: royalblue
+}
+
+.team-btn{
+      background-color: #f5f5f5;
+    color: #000;
+    border: #000 solid 1px;
+}
+
+.team-btn:hover{
+    background-color: royalblue;
+    color: #f5f5f5;
+    border: none;
+}
+
+.pro-spot{
+    background-color: rgb(5, 5, 33);
+}
+
+.pro-spot h6{
+    color:royalblue;
+
+}
+
+.pro-spot hr{
+    border: 1px solid #f5f5f55d;
+}
+
+.pro-spot h3{
+    color: #f5f5f5;
+}
+
+.pro-spot ul li{
+    color: #f5f5f5b9;
+}
+
+
+.team-spot{
+    background-color: #f5f5f5;
 }
