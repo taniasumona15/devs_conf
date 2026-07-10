@@ -111,6 +111,8 @@ cursor: pointer;
 
 
 .speakers-section{
+    width: 90%;
+    margin: 0 auto;
     padding: 100px 0;
     display: flex;
     flex-direction: column;
