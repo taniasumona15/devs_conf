@@ -239,8 +239,8 @@ color: royalblue;
 
 .standard-btn{
     background-color: transparent;
-    border: 2px solid rgb(87, 87, 240);
-    color: royalblue;
+    border: 2px solid royalblue;
+    color: rgb(10, 61, 216);
     
    
 }
