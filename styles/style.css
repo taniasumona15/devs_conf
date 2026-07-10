@@ -70,7 +70,7 @@ cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 82vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,8 +187,6 @@ line-height: 40px;
 .spots-container{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    min-height: 90vh;
     gap: 30px;
     margin-bottom: 100px;
 
