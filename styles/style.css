@@ -187,6 +187,7 @@ line-height: 40px;
 .spots-container{
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     gap: 30px;
     margin-bottom: 100px;
 
