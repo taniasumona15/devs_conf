@@ -188,6 +188,7 @@ line-height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    min-height: 90vh;
     gap: 30px;
     margin-bottom: 100px;
 
