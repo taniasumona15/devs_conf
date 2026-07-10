@@ -285,3 +285,7 @@ color: royalblue;
 .team-spot{
     background-color: #f5f5f5;
 }
+
+.team-spot hr{
+    border: 1px solid #d1cccc;
+}
