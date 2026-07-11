@@ -138,7 +138,7 @@ cursor: pointer;
 }
 
 .speaker{
-border: 1px solid #f5f5f5;
+border: 2px solid #f5f5f5;
 padding-bottom: 40px;
 border-radius: 20px;
 line-height: 40px;
@@ -339,3 +339,86 @@ footer p{
     padding: 25px 0;
     text-align: center;
 }
+
+
+
+.sponsors{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 0 80px;
+}
+
+
+.sponsors p{
+    color: #726f6f;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 0 30px;
+    text-align: center;
+}
+
+.first-sponsor{
+    grid-area: first-sponsor;
+}
+
+.second-sponsor{
+    grid-area: second-sponsor;
+}
+.third-sponsor{
+    grid-area: third-sponsor;
+}
+.fourth-sponsor{
+    grid-area: fourth-sponsor;
+}
+.fifth-sponsor{
+    grid-area: fifth-sponsor;
+}
+.sixth-sponsor{
+    grid-area: sixth-sponsor;
+}
+.seventh-sponsor{
+    grid-area: seventh-sponsor;
+}
+
+.sponsors-container{
+
+    display: grid;
+    grid-template-areas: 
+    "first-sponsor first-sponsor first-sponsor first-sponsor second-sponsor second-sponsor second-sponsor second-sponsor third-sponsor third-sponsor third-sponsor third-sponsor"
+    "fourth-sponsor fourth-sponsor fourth-sponsor fifth-sponsor fifth-sponsor fifth-sponsor sixth-sponsor sixth-sponsor sixth-sponsor seventh-sponsor seventh-sponsor seventh-sponsor"
+    ;
+    grid-template-rows: repeat(2, 1fr);
+gap: 20px;
+    background-color: rgb(5, 5, 33);
+    padding: 40px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.sponsor{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #f5f5f55d;
+    padding: 20px;
+}
+
+.sponsor:hover{
+    border: 1px solid aquamarine;
+}
+
+.sponsor svg{
+    width: 60px;
+    height: 50px;
+    fill: #f5f5f5;}
+
+    .sponsor:hover svg{
+        fill: aquamarine;
+    }

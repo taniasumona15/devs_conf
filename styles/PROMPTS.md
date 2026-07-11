@@ -1,0 +1,1 @@
+i am doing a project about developers conference using html and css. in that project i have added a navbar, a banner, footer and added sections about meet the speakers and secure your spot. now i want to add one more section relevant to this project. give me some suggestion along with unique design. 
